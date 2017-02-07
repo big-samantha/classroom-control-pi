@@ -29,7 +29,6 @@ node default {
   # example code for the classroom
   include examples::puppetize
   
-  node default{
   #production dmz
   notify { "validate sshd config and restart service": }
 }
