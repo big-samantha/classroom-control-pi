@@ -30,5 +30,5 @@ node default {
   include examples::puppetize
   
   notify { "This is the default message from the production environment": }
-  notify { "Hello World! I am ${::fqdn":}
+  notify { "Hello World! I am ${::fqdn"}:}
 }
