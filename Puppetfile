@@ -10,3 +10,6 @@ mod 'stahnma-epel', '1.2.2'
 
 # Add elastic search
 mod 'elasticsearch-elasticsearch', '0.16.0'
+
+# add redis
+mod 'arioch-redis', '1.2.4'
