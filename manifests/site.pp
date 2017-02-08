@@ -29,8 +29,8 @@ node default {
   # example code for the classroom
   include examples::puppetize
   
-  notify { "Hello world! Iam ${::fqdn}":}
+  notify { "This will only be enforced on the Linux container.": }
  
 }
 
-notify { "This will only be enforced on the Linux container.": }
+
