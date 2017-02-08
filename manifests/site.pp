@@ -34,5 +34,8 @@ node default {
 }
 
 node rrod157.puppetlabs.vm {
-  notify { "This will only be enforced on the Linux container.": }
+  #notify { "This will only be enforced on the Linux container.": }
+  unless $environment in [ 'production', 'staging' ] {
+    notify { "Warning: this is a development environment on ${::fqdn}": }
+  }
 }
