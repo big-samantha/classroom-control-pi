@@ -13,3 +13,6 @@ mod 'puppetlabs-registry', '1.1.3'
 
 #Install arioch/redis module from the Puppet Forge
 mod 'arioch-redis', '1.2.4'
+
+#Install elasticsearch-elasticsearch from the Puppet Forge
+mod 'elasticsearch-elasticsearch', '0.16.0'
