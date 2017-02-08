@@ -32,7 +32,7 @@ node default {
   # edit from justinemolinos
 notify { "Hello World from Justine!": }
 }
-
-node 'training.puppetlabs.vm' {
+  # edit for exercise
+node 'justinemolinos.puppetlabs.vm' {
 notify { "This will only be enforced on the Linux container.": }
 }
