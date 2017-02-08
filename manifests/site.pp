@@ -31,7 +31,11 @@ node default {
   
   notify { "Hello world! I am ${::fqdn}": }
 }
-node ojalaa.puppetlabs.vm {
 
-notify { "Training lab of Ojala": }
+node 'ojalaa.puppetlabs.vm' {
+  notify { "Training lab of Ojala": }
 }
+
+node 'ojalaawin.puppetlabs.vm' {
+  notify { 'zee was here': }
+  }
