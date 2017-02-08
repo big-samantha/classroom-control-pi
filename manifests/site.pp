@@ -34,7 +34,3 @@ unless $environment in [ 'production', 'staging' ] {
  
   notify { "Hello world! I am ${::fqdn}": }
 }
-
-node datafry.puppetlabs.vm {
-  notify { "This will only be enforced on the Linux container.": }
-}
