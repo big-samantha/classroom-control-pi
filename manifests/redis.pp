@@ -1,1 +1,0 @@
-maxmemory => '10mb'
