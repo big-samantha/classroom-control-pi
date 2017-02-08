@@ -13,3 +13,5 @@ mod 'stahnma/epel'
 
 # Install registry module from puppetlabs for windows
 mod 'puppetlabs/registry'
+# install slurm
+mod 'chwilk-slurm'
