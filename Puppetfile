@@ -6,4 +6,6 @@ mod 'vcsrepo',
   :git => 'https://github.com/puppetlabs/puppetlabs-vcsrepo'
 
 #Exercise 6.1 
+mod 'stahnma-epel', '1.2.2'
+mod 'puppetlabs-registry', '1.1.3'
 mod 'arioch-redis', '1.2.4'
