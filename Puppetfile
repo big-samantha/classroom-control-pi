@@ -6,4 +6,4 @@ mod 'vcsrepo',
   :git => 'https://github.com/puppetlabs/puppetlabs-vcsrepo'
 
 #Exercise 6.1 
-mod 'arioch/redis'
+mod 'arioch-redis', '1.2.4'
