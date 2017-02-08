@@ -25,14 +25,19 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
-  
+ 
   # example code for the classroom
   include examples::puppetize
   
   notify { "Hello World - fponce26": }
+  
+  unless $environtment in ['production','staging']{
+    notify {"Warning: This is a development environment on ${::fqdn}":}
+
+  }
 }
 
-node 'fponce26.puppetlabs.vm' {
+#node 'fponce26.puppetlabs.vm' {
 
-  notify {"This will only be enforced on the linux machine":}
-}
+#  notify {"This will only be enforced on the linux machine":}
+#}
