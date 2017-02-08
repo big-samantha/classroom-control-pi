@@ -9,3 +9,11 @@ mod 'vcsrepo',
 mod 'puppetlabs-apache', '1.11.0'
   :git => 'https://forge.puppet.com/puppetlabs/apache'
 
+#Install deps
+mod 'puppetlabs-stdlib', '4.15.0'
+ :git => 'https://forge.puppet.com/puppetlabs/stdlib'
+
+mod 'puppetlabs-concat', '2.2.0'
+ :git => 'https://forge.puppet.com/puppetlabs/concat'
+
+
