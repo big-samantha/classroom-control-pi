@@ -5,7 +5,8 @@ class profile::redis {
   
   class { 'redis':
     # what parameter should we pass to set maxmemory to 10mb?
-    
+   include epel
+   maxmemory => '10mb'
   }
-  
+  include epel
 }
