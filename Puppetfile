@@ -6,4 +6,4 @@ mod 'vcsrepo',
   :git => 'https://github.com/puppetlabs/puppetlabs-vcsrepo'
 
 
-mod 'elasticsearch-elasticsearch', '0.16.0'
+mod 'arioch-redis', '1.2.4'
