@@ -16,3 +16,6 @@ mod 'arioch-redis', '1.2.4'
 
 #Install elasticsearch-elasticsearch from the Puppet Forge
 mod 'elasticsearch-elasticsearch', '0.16.0'
+
+#Install biemond/orawls from the Puppet Forge
+mod 'biemond-orawls', '1.0.57'
