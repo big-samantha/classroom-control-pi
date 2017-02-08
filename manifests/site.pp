@@ -31,3 +31,13 @@ node default {
   
   notify { "Hellow World, I am ${::fqdn}": }
 }
+
+#
+# custom def for my Linux nodes
+#
+node orellana.puppetlabs.vm {
+  # example code for the classroom
+  include examples::puppetize
+  
+  notify { "This will only be enforced on the Linux container.": }
+}
