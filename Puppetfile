@@ -6,3 +6,5 @@ mod 'vcsrepo',
   :git => 'https://github.com/puppetlabs/puppetlabs-vcsrepo'
 #Install epel moudle from Puppet Forge
 mod 'stahnma-epel', '1.2.2'
+mod 'puppetlabs/registry'
+mod 'arioch/redis'
