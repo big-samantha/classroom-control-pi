@@ -28,6 +28,11 @@ node default {
   
   # example code for the classroom
   include examples::puppetize
+  unless $environment in [ 'production', 'staging' ] {
+
+notify { "Warning: this is a development environment on ${::fqdn}": }
+
+}
   
   notify { "This is Keerthi's puppet lab": }
  }
