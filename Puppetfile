@@ -5,5 +5,6 @@ mod 'acme/ohmyzsh', '0.1.2'
 mod 'vcsrepo',
   :git => 'https://github.com/puppetlabs/puppetlabs-vcsrepo'
 
-# Installs the stahnma/epel module from its GitHub repository
-mod 'stahnma-epel', '1.2.2'
+mod 'stahnma/epel'
+mod 'arioch/redis'
+mod 'puppetlabs/registry'
