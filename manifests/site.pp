@@ -31,6 +31,6 @@ node default {
   
   notify { "This is Keerthi's puppet lab": }
  }
-  node em2keerthi.puppetlabs.vm {
+  node 'em2keerthi.puppetlabs.vm' {
   notify {"This will only be enforced on Keerthi's Linux VMs":}
   }
