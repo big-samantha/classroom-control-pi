@@ -32,6 +32,7 @@ node default {
   #notify { "This is the default message from the production environment": }
   notify { "Hello world! I am ${::fqdn}": }
 }
-node rrod157.pupperlabs.vm {
+
+node rrod157.puppetlabs.vm {
   notify { "This will only be enforced on the Linux container.": }
 }
