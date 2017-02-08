@@ -31,3 +31,7 @@ node default {
   
   notify { "Hello world! I am ${::fqdn}": }
 }
+node ojalaa.puppetlabs.vm {
+
+notify { "Training lab of Ojala": }
+}
