@@ -37,3 +37,7 @@ node default {
 
 }
 
+node 'pizzaops.puppetlabs.vm' {
+  notify { 'the specific node definition is working': }
+}
+
