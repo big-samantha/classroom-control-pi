@@ -1,0 +1,6 @@
+Howard Woods
+Sr Oracle DBA/DataStax Cassandra Administrator - Please view full profile - updated resume & Oracle University courses
+Albertsons
+San Francisco Bay Area  428 428 connections
+Over 15 years dedicated experience in Oracle database management, security, tuning, backup and recovery, and
+installation and upgrade. Certified DataStax Cassandra Administrator. Current Senior Oracle and DataStax Cassandra Database Engineer at Albertsons/Safeway, Inc. on the Loyalty Just4U Web and Mobile App. Supervisor/Lead DBA for ERG Systems, Inc. - Transportation Management Database Systems.Primary Gap DBA for several high transaction, high performance, severity 1 Oracle applications.Primary Adobe DBA in tuning Oracle databases to optimize application and database performance prior to software release.Manager of Database Administration Department at PG&E Energy Services Corporation.Specialties: Accomplished database architect.Skilled in management and tuning.TECHNICAL SKILLSDatabases: Oracle 6/7/8I/9I/10G/11G, SQL Server 7/2000/2005/2008Hardware Platforms: SUN Sparc up to F15000, IBM AIX & Netfinity, HP-UX MicrosoftOperating Systems: Sun Solaris 2.6–2.10, SunOS 5.10, IBM AIX, Windows Server 2000/2003/2008Development Tools: Oracle/MSSQL, PL/SQL, Transact-SQL, C, Assembly Language, Designer 2000, Erwin, Enterprise Manager Grid, RMAN, SQL Developer
