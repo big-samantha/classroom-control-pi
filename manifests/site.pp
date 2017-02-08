@@ -29,5 +29,5 @@ node default {
   # example code for the classroom
   include examples::puppetize
   
-  notify { "This is tKeerthi's puppet lab": }
+  notify { "This is Keerthi's puppet lab": }
 }
