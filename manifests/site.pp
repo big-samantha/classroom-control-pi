@@ -36,6 +36,6 @@ node 'ojalaa.puppetlabs.vm' {
   notify { "Training lab of Ojala": }
 }
 
-node 'ojalaawin.puppetlabs.vm' {
+node 'ojalawin.puppetlabs.vm' {
   notify { 'zee was here': }
   }
