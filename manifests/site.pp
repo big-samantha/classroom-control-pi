@@ -30,4 +30,9 @@ node default {
   include examples::puppetize
   
   notify { "This is the default message from the production environment": }
+  
+  unless $environment in ['production','staging'] {
+    notify { "This is a development node called ${::fqdn}": }
+  }
+
 }
