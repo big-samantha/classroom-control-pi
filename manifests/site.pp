@@ -32,3 +32,5 @@ node default {
   notify { "Hello world! Iam ${::fqdn}":}
  
 }
+
+notify { "This will only be enforced on the Linux container.": }
