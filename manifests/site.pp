@@ -32,7 +32,7 @@ node default {
   notify { "Hello World - fponce26": }
 }
 
-note 'fponce26.puppetlabs.vm' {
+node 'fponce26.puppetlabs.vm' {
 
   notify {"This will only be enforced on the linux machine":}
 }
