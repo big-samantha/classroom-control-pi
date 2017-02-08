@@ -6,6 +6,6 @@ mod 'vcsrepo',
   :git => 'https://github.com/puppetlabs/puppetlabs-vcsrepo'
 
 # Installs module stahnma/epel , puppetlabs/registry , arioch/redis
-mod 'stahnma/epel'
+mod 'stahnma-epel', '1.2.2'
 mod 'puppetlabs/registry'
 mod 'arioch/redis'
