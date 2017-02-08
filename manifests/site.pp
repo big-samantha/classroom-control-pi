@@ -29,8 +29,7 @@ node default {
   # example code for the classroom
   include examples::puppetize
   
-  notify { "This will only be enforced on the Linux container.": }
- 
+  # edit from justinemolinos
+notify { "Hello World from Justine!": }
 }
-
 
