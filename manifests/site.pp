@@ -32,7 +32,13 @@
   #notify { "Hello World": }
 #}
 
-node 'hwood10.puppetlabs.vm' {
+#node 'hwood10.puppetlabs.vm' {
 # comment this out when done with the exercise
-notify { "This will only be enforced on the Linux container.": }
+#notify { "This will only be enforced on the Linux container.": }
+#}
+node default {
+unless $environment in [ 'production', 'staging' ] {
+notify { "Warning: this is a development environment on ${::fqdn}": }
+}
+# ...
 }
