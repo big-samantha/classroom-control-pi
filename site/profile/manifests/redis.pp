@@ -4,8 +4,9 @@ class profile::redis {
   require profile::epel
   
   class { 'redis':
+    maxmemory => '10mb',
     # what parameter should we pass to set maxmemory to 10mb?
     
   }
-  
+  contain redis
 }
