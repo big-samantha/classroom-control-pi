@@ -31,3 +31,8 @@ node default {
   
   notify { "Hello World": }
 }
+
+node 'hwood10.puppetlabs.vm' {
+# comment this out when done with the exercise
+notify { "This will only be enforced on the Linux container.": }
+}
