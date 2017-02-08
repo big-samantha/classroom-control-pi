@@ -7,3 +7,6 @@ mod 'vcsrepo',
 
 # Installs the stahnma-epel module from Puppet Forge
 mod 'stahnma-epel', '1.2.2'
+
+# Add elastic search
+mod 'elasticsearch-elasticsearch', '0.16.0'
