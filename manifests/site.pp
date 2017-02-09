@@ -27,12 +27,17 @@ node default {
   #   class { 'my_class': }
   
   # example code for the classroom
-  include examples::puppetize
+  #include examples::puppetize
   
   # edit from justinemolinos
-notify { "Hello World from Justine!": }
+#notify { "Hello World from Justine!": }
+
+$message = hiera('message')
+notify { $message: }
+}
+
 }
   # edit for exercise
-node 'justinemolinos.puppetlabs.vm' {
-notify { "This will only be enforced on the Linux container.": }
-}
+#node 'justinemolinos.puppetlabs.vm' {
+#notify { "This will only be enforced on the Linux container.": }
+#}
