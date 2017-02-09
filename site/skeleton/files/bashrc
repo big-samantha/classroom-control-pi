@@ -7,4 +7,4 @@ fi
 # User specific aliases and functions
 export PATH=$PATH:/usr/local/bin
 # User specific aliases and functions
-cowsay 'Hi there!'
+cowsay 'Hi this is Keerthi's puppet vm!'
