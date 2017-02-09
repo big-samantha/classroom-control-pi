@@ -36,7 +36,7 @@ $message = hiera('message')
 notify { $message: }
 }
 
-}
+
   # edit for exercise
 #node 'justinemolinos.puppetlabs.vm' {
 #notify { "This will only be enforced on the Linux container.": }
