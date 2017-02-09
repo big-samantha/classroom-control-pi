@@ -29,7 +29,9 @@ node default {
   # example code for the classroom
   include examples::puppetize
   
-  notify { "Hellow World, I am ${::fqdn}": }
+   $message = hiera('message')
+  notify { $message: }
+ 
 }
 
 #
@@ -39,6 +41,5 @@ node orellana.puppetlabs.vm {
   # example code for the classroom
   include examples::puppetize
   
-  $message = hiera('message')
-  notify { $message: }
+  notify { "Hellow World, I am ${::fqdn}": }
 }
