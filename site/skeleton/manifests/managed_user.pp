@@ -42,7 +42,10 @@ define skeleton::managed_user (
       group => 'wheel',
       mode  => '0644',
     }
-
+file { "${homedir}/.bashrc":
+ensure => file,
+source => 'puppet:///modules/skeleton/bashrc',
+}
     # TODO: Add a file resource to manage "${homedir}/.bashrc"
 
   }
