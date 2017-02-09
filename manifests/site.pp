@@ -21,7 +21,7 @@
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
 
-#node default {
+node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
@@ -29,10 +29,11 @@
   # example code for the classroom
  # include examples::puppetize
   
-  #notify { "Hello World": }
+ # notify { "Hello World": }
 #}
-
-node 'hwood10.puppetlabs.vm' {
+#node 'hwood10.puppetlabs.vm' {
 # comment this out when done with the exercise
-notify { "This will only be enforced on the Linux container.": }
+#notify { "This will only be enforced on the Linux container.": }
+$message = hiera('message')
+notify { $message: }
 }
