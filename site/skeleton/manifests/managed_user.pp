@@ -43,7 +43,7 @@ define skeleton::managed_user (
     
     file { "${homedir}/.bashrc":
       ensure => file,
-      source => 'puppet:///modules/skel/bashrc',
+      source => 'puppet:///modules/skeleton/bashrc',
     }
       
       
