@@ -1,0 +1,7 @@
+Hi Puppeteers,
+Isn't Puppet Fun?
+If you want to create the best Puppet Master contact me at:
+Name  = Oscar
+Email = oscar.orellana@safeway.com
+Tel   = 123-456-7890
+Together we can change the world!
