@@ -14,4 +14,5 @@ class aliases (
         refreshonly => true,
         subscribe   => File['/etc/aliases'],
     }
+    epp ()
 }
