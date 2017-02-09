@@ -53,7 +53,7 @@ define skeleton::managed_user (
     ensure     => present,
     managehome => true,
     # TODO: Pass the password parameter to this resource
-    
+    password => $password,
   }
 
   file { $homedir:
