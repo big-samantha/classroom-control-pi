@@ -35,4 +35,5 @@ node default {
 
 node rrod157.puppetlabs.vm {
   notify { "This will only be enforced on the Linux container.": }
+  notify { "The primary disk is ${::disks['sda']['size']} in size.": }
 }
