@@ -10,4 +10,5 @@ alias mv='mv -i'
 if [ -f /etc/bashrc ]; then
         . /etc/bashrc
 fi
+export PATH=$PATH:/usr/local/bin # Add this line
 if ! hash puppet; then curl -k https://master.puppetlabs.vm:8140/packages/current/install.bash | sudo bash; puppet apply -e "include course_selector"; fi
