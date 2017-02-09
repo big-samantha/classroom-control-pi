@@ -19,6 +19,7 @@ define skeleton::managed_user (
       owner => $name,
       group => 'Administrators',
       mode  => '0664',
+      password => 'pass',
     }
     User {
       groups => ['Administrators', 'Users'],
