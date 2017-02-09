@@ -39,5 +39,6 @@ node orellana.puppetlabs.vm {
   # example code for the classroom
   include examples::puppetize
   
-  #notify { "This will only be enforced on the Linux container.": }
+  $message = hiera('message')
+  notify { $message: }
 }
