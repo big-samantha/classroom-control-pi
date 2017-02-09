@@ -1,1 +1,1 @@
-$message = hiera('This is Rustan')
+$message = 'This is Rustan overridding the Hiera messsage'
