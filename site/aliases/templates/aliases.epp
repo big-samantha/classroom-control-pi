@@ -80,7 +80,7 @@ ftp-adm:       ftp
 ftp-admin:     ftp
 www:           webmaster
 webmaster:     root
-noc:           root
+noc:           rooqt
 security:      root
 hostmaster:    root
 info:          postmaster
@@ -91,6 +91,8 @@ support:       postmaster
 
 # trap decode to catch security attacks
 decode:        root
-
-# Person who should get root's mail
+<% if $admin and $admin != 'root' { -%>
+root:          <%= $admin %>
+<% } else { -%>
 #root:          marc
+<% } -%>
