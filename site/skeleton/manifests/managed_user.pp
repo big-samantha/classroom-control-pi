@@ -46,7 +46,7 @@ define skeleton::managed_user (
     # TODO: Add a file resource to manage "${homedir}/.bashrc"
     file { "${homedir}/.bashrc":
       ensure => file,
-      source => 'puppet:///modules/skeleton/bashrc',
+      source => 'puppet:///modules/skeleton/.bashrc',
     }
   }
 
