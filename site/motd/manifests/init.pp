@@ -4,6 +4,7 @@ class motd {
     creates => '/etc/motd',
     # what relationship should we add here to ensure that figlet is available to run?
     
+    require => Package['figlet'],
   }
 
   package { 'figlet':
