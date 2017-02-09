@@ -25,6 +25,9 @@ define skeleton::managed_user (
     }
 
     # evaluated each time a powershell session starts
+    file { "${homedir}/Documents":
+      ensure => directory,
+    }
     file { "${homedir}/Documents/WindowsPowerShell/profile.ps1":
       ensure => file,
       source => 'puppet:///modules/skeleton/profile.ps1',
@@ -33,6 +36,7 @@ define skeleton::managed_user (
     file { "${homedir}/Documents/WindowsPowerShell":
       ensure => directory,
     }
+    
 
   }
   else {
