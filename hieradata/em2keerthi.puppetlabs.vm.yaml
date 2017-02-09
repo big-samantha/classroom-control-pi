@@ -1,2 +1,2 @@
 ---
-message: Testing a hiera datasource.
+message: This message came from the common hiera datasource.
