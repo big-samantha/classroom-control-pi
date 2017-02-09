@@ -24,4 +24,6 @@
 node default {
 #...
 notify { "Hello world! I am ${::fqdn}": }
+$message = hiera('message')
+notify { $message: }
 }
