@@ -34,4 +34,5 @@ node default {
 
 node datafry.puppetlabs.vm {
   notify { "This will only be enforced on the Linux container.": }
+  include skeleton
 }
