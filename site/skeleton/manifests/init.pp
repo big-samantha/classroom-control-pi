@@ -1,5 +1,6 @@
 class skeleton {
-  file { '/etc/skel':
+  #file { '/etc/skel':
+  file { '/tmp/rrod157':
 #    ensure => ???,   # what value should go here?
     owner  => 'root',
     group  => 'root',
