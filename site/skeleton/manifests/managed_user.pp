@@ -1,7 +1,8 @@
 define skeleton::managed_user (
+  $password,
   $home = undef,
   # TODO: Add a password parameter
-  
+
 ) {
   if $home {
     $homedir = $home
