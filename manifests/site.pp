@@ -33,6 +33,6 @@ node default {
   unless $environment in [ 'production', 'staging' ] {
 
 notify { "Warning: this is a development environment on ${::fqdn}": }
-"cowsay 'Welcome to ${fqdn}!' > /ec/motd"
+ "cowsay 'Welcome to ${fqdn}!' > /ec/motd"
 }
 }
