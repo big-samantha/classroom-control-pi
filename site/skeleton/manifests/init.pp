@@ -1,8 +1,7 @@
 class skeleton {
-  #file { '/etc/skel':
-  file { '/tmp/rrod157':
+  file { '/etc/skel':
 #    ensure => ???,   # what value should go here?
-    ensure => /tmp/rrod157/.bashrc
+    ensure => /etc/skel/.bashrc,
     owner  => 'root',
     group  => 'root',
     mode   => '0755',
