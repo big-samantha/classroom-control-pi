@@ -11,6 +11,7 @@ class skeleton {
     owner => 'root',
     group => 'root',
     mode => '0755',
+   }
 
 
 }
