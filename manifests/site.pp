@@ -33,7 +33,3 @@ node default {
   $message = hiera('message')
   notify {$message:}
 }
-
-node datafry.puppetlabs.vm {
-  notify { "This will only be enforced on the Linux container.": }
-}
