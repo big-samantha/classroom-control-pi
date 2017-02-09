@@ -38,4 +38,10 @@ notify { "Warning: this is a development environment on ${::fqdn}": }
  }
   node 'em2keerthi.puppetlabs.vm' {
   notify {"This will only be enforced on Keerthi's Linux VMs":}
+  
+  exec { "cowsay 'Welcome to ${::fqdn}!' > /etc/motd":
+  path => '/usr/bin:/usr/local/bin',
+  creates => '/etc/motd',
+
+}
   }
