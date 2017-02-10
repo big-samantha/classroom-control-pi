@@ -25,7 +25,7 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
-  $message = hiera('hale heira')
+  $message = hiera('hail heira')
   notify { $message: }
 
   # example code for the classroom
@@ -34,7 +34,7 @@ node default {
   notify { "Hello World - fponce26": }
 }
 
-node 'fponce26.puppetlabs.vm' {
+#node 'fponce26.puppetlabs.vm' {
 
-  notify {"This will only be enforced on the linux machine":}
+ # notify {"This will only be enforced on the linux machine":}
 }
