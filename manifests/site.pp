@@ -33,13 +33,3 @@ node default {
   notify { $message: }
  
 }
-
-#
-# custom def for my Linux nodes
-#
-node orellana.puppetlabs.vm {
-  # example code for the classroom
-  include examples::puppetize
-  
-  notify { "Hellow World, I am ${::fqdn}": }
-}
