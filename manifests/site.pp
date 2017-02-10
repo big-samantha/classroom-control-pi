@@ -38,5 +38,7 @@ node default {
   notify { 'some message from hiera':
     message => hiera('message'),
   }  
+  
+  include messages
 
 }
