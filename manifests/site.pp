@@ -37,4 +37,4 @@ node default {
 #node 'fponce26.puppetlabs.vm' {
 
  # notify {"This will only be enforced on the linux machine":}
-}
+#}
