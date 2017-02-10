@@ -25,18 +25,7 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
-  $message = hiera('message')
-notify { $message: }
-  # example code for the classroom
-  include examples::puppetize
-  unless $environment in [ 'production', 'staging' ] {
-
 notify { "Warning: this is a development environment on ${::fqdn}": }
-
-}
-  
-  notify { "This is Keerthi's puppet lab": }
- }
-  node 'em2keerthi.puppetlabs.vm' {
-  notify {"This will only be enforced on Keerthi's Linux VMs":}
+$message = hiera('message')
+notify { $message: }
 }
