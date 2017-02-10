@@ -34,10 +34,9 @@ node default {
   notify { 'i am a message':
     message => 'Beware Zee is making experimental changes',
   }
+  
+  notify { 'some message from hiera':
+    message => hiera('message'),
+  }  
 
 }
-
-node 'pizzaops.puppetlabs.vm' {
-  notify { 'the specific node definition is working': }
-}
-
